@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,6 +8,7 @@
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
+
 <body>
     <!-- Navigation -->
     <nav class="navbar">
@@ -25,8 +27,10 @@
             <div class="nav-auth" id="navAuth">
                 <button class="btn-nav-signup" id="navSignupBtn" onclick="openSignupModal()">Sign Up</button>
                 <button class="btn-nav-login" id="navLoginBtn" onclick="openLoginModal()">Log In</button>
-                <button class="btn-nav-dashboard" id="navDashboardBtn" onclick="openDashboard()" style="display:none"><i class="fas fa-th-large"></i> Dashboard</button>
-                <button class="btn-nav-logout" id="navLogoutBtn" onclick="handleLogout()" style="display:none"><i class="fas fa-sign-out-alt"></i> Logout</button>
+                <button class="btn-nav-dashboard" id="navDashboardBtn" onclick="openDashboard()" style="display:none"><i
+                        class="fas fa-th-large"></i> Dashboard</button>
+                <button class="btn-nav-logout" id="navLogoutBtn" onclick="handleLogout()" style="display:none"><i
+                        class="fas fa-sign-out-alt"></i> Logout</button>
             </div>
             <div class="hamburger" id="hamburger">
                 <span></span>
@@ -40,7 +44,7 @@
     <section class="hero" id="home">
         <div class="hero-content">
             <h2>Welcome to Digital Agency</h2>
-            <p>Transform Your Business with Professional Web Design, SEO & Branding Solutions</p>
+            <p>Forge — From Vision to Revenue, Built for Growth</p>
             <a href="#contact" class="btn btn-primary">Get Started</a>
         </div>
     </section>
@@ -50,7 +54,7 @@
         <div class="container">
             <h2 class="section-title">Our Services</h2>
             <p class="section-subtitle">Comprehensive digital solutions tailored to your business needs</p>
-            
+
             <div class="services-grid">
                 <!-- Web Design -->
                 <div class="service-card">
@@ -58,7 +62,8 @@
                         <i class="fas fa-pencil-ruler"></i>
                     </div>
                     <h3>Web Design</h3>
-                    <p>Create stunning, user-friendly websites that engage your audience and drive conversions. Our designs are modern, responsive, and optimized for all devices.</p>
+                    <p>Create stunning, user-friendly websites that engage your audience and drive conversions. Our
+                        designs are modern, responsive, and optimized for all devices.</p>
                     <ul class="service-features">
                         <li><i class="fas fa-check"></i> Responsive Design</li>
                         <li><i class="fas fa-check"></i> UI/UX Focused</li>
@@ -72,7 +77,8 @@
                         <i class="fas fa-chart-line"></i>
                     </div>
                     <h3>Search Engine Optimization</h3>
-                    <p>Boost your online visibility and rank higher on search engines. We implement proven SEO strategies to drive organic traffic to your website.</p>
+                    <p>Boost your online visibility and rank higher on search engines. We implement proven SEO
+                        strategies to drive organic traffic to your website.</p>
                     <ul class="service-features">
                         <li><i class="fas fa-check"></i> Keyword Research</li>
                         <li><i class="fas fa-check"></i> On-page Optimization</li>
@@ -86,7 +92,8 @@
                         <i class="fas fa-palette"></i>
                     </div>
                     <h3>Branding</h3>
-                    <p>Build a strong brand identity that resonates with your target audience. From logo design to brand guidelines, we create cohesive visual identities.</p>
+                    <p>Build a strong brand identity that resonates with your target audience. From logo design to brand
+                        guidelines, we create cohesive visual identities.</p>
                     <ul class="service-features">
                         <li><i class="fas fa-check"></i> Logo Design</li>
                         <li><i class="fas fa-check"></i> Brand Strategy</li>
@@ -102,10 +109,11 @@
         <div class="container">
             <h2 class="section-title">Recent Projects</h2>
             <p class="section-subtitle">Showcasing our best work and successful client projects</p>
-            
+
             <div class="portfolio-grid">
                 <div class="portfolio-item">
-                    <div class="portfolio-image" style="background: linear-gradient(135deg, #1a3a1a 0%, #003d00 100%); display: flex; align-items: center; justify-content: center; font-size: 3rem;">
+                    <div class="portfolio-image"
+                        style="background: linear-gradient(135deg, #1a3a1a 0%, #003d00 100%); display: flex; align-items: center; justify-content: center; font-size: 3rem;">
                         <i class="fas fa-shopping-cart" style="color: #00cc44;"></i>
                     </div>
                     <div class="portfolio-info">
@@ -116,7 +124,8 @@
                 </div>
 
                 <div class="portfolio-item">
-                    <div class="portfolio-image" style="background: linear-gradient(135deg, #1a1a2e 0%, #003300 100%); display: flex; align-items: center; justify-content: center; font-size: 3rem;">
+                    <div class="portfolio-image"
+                        style="background: linear-gradient(135deg, #1a1a2e 0%, #003300 100%); display: flex; align-items: center; justify-content: center; font-size: 3rem;">
                         <i class="fas fa-rocket" style="color: #00cc44;"></i>
                     </div>
                     <div class="portfolio-info">
@@ -127,7 +136,8 @@
                 </div>
 
                 <div class="portfolio-item">
-                    <div class="portfolio-image" style="background: linear-gradient(135deg, #001a00 0%, #004d00 100%); display: flex; align-items: center; justify-content: center; font-size: 3rem;">
+                    <div class="portfolio-image"
+                        style="background: linear-gradient(135deg, #001a00 0%, #004d00 100%); display: flex; align-items: center; justify-content: center; font-size: 3rem;">
                         <i class="fas fa-chart-line" style="color: #00cc44;"></i>
                     </div>
                     <div class="portfolio-info">
@@ -138,7 +148,8 @@
                 </div>
 
                 <div class="portfolio-item">
-                    <div class="portfolio-image" style="background: linear-gradient(135deg, #0d2b0d 0%, #1a4d1a 100%); display: flex; align-items: center; justify-content: center; font-size: 3rem;">
+                    <div class="portfolio-image"
+                        style="background: linear-gradient(135deg, #0d2b0d 0%, #1a4d1a 100%); display: flex; align-items: center; justify-content: center; font-size: 3rem;">
                         <i class="fas fa-laptop" style="color: #00cc44;"></i>
                     </div>
                     <div class="portfolio-info">
@@ -149,7 +160,8 @@
                 </div>
 
                 <div class="portfolio-item">
-                    <div class="portfolio-image" style="background: linear-gradient(135deg, #1a1a00 0%, #334400 100%); display: flex; align-items: center; justify-content: center; font-size: 3rem;">
+                    <div class="portfolio-image"
+                        style="background: linear-gradient(135deg, #1a1a00 0%, #334400 100%); display: flex; align-items: center; justify-content: center; font-size: 3rem;">
                         <i class="fas fa-palette" style="color: #00cc44;"></i>
                     </div>
                     <div class="portfolio-info">
@@ -160,7 +172,8 @@
                 </div>
 
                 <div class="portfolio-item">
-                    <div class="portfolio-image" style="background: linear-gradient(135deg, #003300 0%, #001a1a 100%); display: flex; align-items: center; justify-content: center; font-size: 3rem;">
+                    <div class="portfolio-image"
+                        style="background: linear-gradient(135deg, #003300 0%, #001a1a 100%); display: flex; align-items: center; justify-content: center; font-size: 3rem;">
                         <i class="fas fa-bullseye" style="color: #00cc44;"></i>
                     </div>
                     <div class="portfolio-info">
@@ -179,8 +192,10 @@
             <div class="about-content">
                 <div class="about-text">
                     <h2 class="section-title">About Our Agency</h2>
-                    <p>We are a team of passionate digital experts dedicated to helping businesses succeed online. With over 10 years of combined experience, we've helped hundreds of companies transform their digital presence.</p>
-                    
+                    <p>We are a team of passionate digital experts dedicated to helping businesses succeed online. With
+                        over 10 years of combined experience, we've helped hundreds of companies transform their digital
+                        presence.</p>
+
                     <div class="about-stats">
                         <div class="stat">
                             <h3>500+</h3>
@@ -196,7 +211,8 @@
                         </div>
                     </div>
 
-                    <p>Our approach combines strategy, creativity, and technology to deliver results that matter. We believe in building long-term partnerships with our clients.</p>
+                    <p>Our approach combines strategy, creativity, and technology to deliver results that matter. We
+                        believe in building long-term partnerships with our clients.</p>
                 </div>
             </div>
         </div>
@@ -273,9 +289,11 @@
         <div class="container">
             <h2 class="section-title">Revenue Generating Website System</h2>
             <p class="section-subtitle">Complete Framework to Convert Traffic into Sales</p>
-            
+
             <div class="revenue-intro">
-                <p>A revenue-generating website is not just about design—it is a complete system that converts online traffic into real business sales. Our proven framework works through 7 interconnected layers, each optimized to move visitors closer to becoming paying customers.</p>
+                <p>A revenue-generating website is not just about design—it is a complete system that converts online
+                    traffic into real business sales. Our proven framework works through 7 interconnected layers, each
+                    optimized to move visitors closer to becoming paying customers.</p>
             </div>
 
             <div class="revenue-layers">
@@ -284,7 +302,9 @@
                     <div class="layer-number">1</div>
                     <div class="layer-content">
                         <h3><i class="fas fa-search"></i> SEO Layer - Bring High-Intent Traffic</h3>
-                        <p>The process starts with SEO, which brings high-intent users to your website through search engines using targeted keywords and optimized content. We ensure your website ranks for the keywords your ideal customers are searching for.</p>
+                        <p>The process starts with SEO, which brings high-intent users to your website through search
+                            engines using targeted keywords and optimized content. We ensure your website ranks for the
+                            keywords your ideal customers are searching for.</p>
                         <ul class="layer-features">
                             <li>Keyword research & optimization</li>
                             <li>Technical SEO improvements</li>
@@ -299,7 +319,9 @@
                     <div class="layer-number">2</div>
                     <div class="layer-content">
                         <h3><i class="fas fa-bullseye"></i> Hook Layer - First Impression in Seconds</h3>
-                        <p>Once the user lands on your site, the first impression (hook layer) plays a critical role. Clear messaging, strong headlines, and clean design ensure the visitor understands your relevance within seconds and doesn't immediately leave.</p>
+                        <p>Once the user lands on your site, the first impression (hook layer) plays a critical role.
+                            Clear messaging, strong headlines, and clean design ensure the visitor understands your
+                            relevance within seconds and doesn't immediately leave.</p>
                         <ul class="layer-features">
                             <li>Compelling headline & value proposition</li>
                             <li>Professional design & layout</li>
@@ -314,7 +336,9 @@
                     <div class="layer-number">3</div>
                     <div class="layer-content">
                         <h3><i class="fas fa-heart"></i> Psychology Layer - Build Trust & Engagement</h3>
-                        <p>After capturing attention, the website moves into the psychological engagement layer. Content is crafted to connect with the user's problems, needs, and emotions. This builds trust and keeps the user engaged throughout their journey.</p>
+                        <p>After capturing attention, the website moves into the psychological engagement layer. Content
+                            is crafted to connect with the user's problems, needs, and emotions. This builds trust and
+                            keeps the user engaged throughout their journey.</p>
                         <ul class="layer-features">
                             <li>Problem-solution storytelling</li>
                             <li>Social proof & testimonials</li>
@@ -329,7 +353,9 @@
                     <div class="layer-number">4</div>
                     <div class="layer-content">
                         <h3><i class="fas fa-flag-checkered"></i> Conversion Layer - Turn Visitors into Leads</h3>
-                        <p>The most crucial part is the conversion system. Strategically placed CTAs (like "Book a Call" or "Get a Free Audit"), smart forms, and structured funnels guide the visitor toward taking action, turning them into a lead.</p>
+                        <p>The most crucial part is the conversion system. Strategically placed CTAs (like "Book a Call"
+                            or "Get a Free Audit"), smart forms, and structured funnels guide the visitor toward taking
+                            action, turning them into a lead.</p>
                         <ul class="layer-features">
                             <li>Strategic CTA placement</li>
                             <li>Optimized lead capture forms</li>
@@ -344,7 +370,9 @@
                     <div class="layer-number">5</div>
                     <div class="layer-content">
                         <h3><i class="fas fa-handshake"></i> Sales Layer - Convert Leads to Customers</h3>
-                        <p>Once a lead is generated, the sales layer takes over through follow-ups, calls, or messaging systems to convert that lead into a paying client. This is where relationships are strengthened and deals are closed.</p>
+                        <p>Once a lead is generated, the sales layer takes over through follow-ups, calls, or messaging
+                            systems to convert that lead into a paying client. This is where relationships are
+                            strengthened and deals are closed.</p>
                         <ul class="layer-features">
                             <li>Automated follow-up sequences</li>
                             <li>Personal outreach strategies</li>
@@ -359,7 +387,8 @@
                     <div class="layer-number">6</div>
                     <div class="layer-content">
                         <h3><i class="fas fa-chart-line"></i> Revenue Layer - Measure Real Business Growth</h3>
-                        <p>This directly leads to the revenue layer, where actual business growth is measured in terms of sales, ROI, and customer acquisition. This is the bottom line—real money in the bank.</p>
+                        <p>This directly leads to the revenue layer, where actual business growth is measured in terms
+                            of sales, ROI, and customer acquisition. This is the bottom line—real money in the bank.</p>
                         <ul class="layer-features">
                             <li>Sales tracking & reporting</li>
                             <li>ROI measurement & analysis</li>
@@ -374,7 +403,9 @@
                     <div class="layer-number">7</div>
                     <div class="layer-content">
                         <h3><i class="fas fa-cog"></i> Insights & Optimization Layer - Continuous Improvement</h3>
-                        <p>Finally, the entire system is supported by an insights and optimization layer. Analytics, user behavior tracking, and performance data are used to continuously improve the website's effectiveness and maximize revenue potential.</p>
+                        <p>Finally, the entire system is supported by an insights and optimization layer. Analytics,
+                            user behavior tracking, and performance data are used to continuously improve the website's
+                            effectiveness and maximize revenue potential.</p>
                         <ul class="layer-features">
                             <li>Analytics & data tracking</li>
                             <li>User behavior analysis</li>
@@ -419,8 +450,9 @@
             <div class="subscribe-section">
                 <div class="subscribe-content">
                     <h3>Ready to Implement This Framework?</h3>
-                    <p>Subscribe to our Revenue Model Framework and get access to proven strategies, tools, and templates to transform your business into a revenue-generating machine.</p>
-                    
+                    <p>Subscribe to our Revenue Model Framework and get access to proven strategies, tools, and
+                        templates to transform your business into a revenue-generating machine.</p>
+
                     <div class="subscribe-benefits">
                         <div class="benefit-item">
                             <i class="fas fa-check-circle"></i>
@@ -498,28 +530,37 @@
                 <div class="auth-modal-logo"><i class="fas fa-star"></i></div>
                 <h2 id="signupModalTitle">Create Your Account</h2>
                 <p>Subscribe to our Revenue Model Framework</p>
-                <button class="auth-close-btn" onclick="closeSignupModal()" aria-label="Close"><i class="fas fa-times"></i></button>
+                <button class="auth-close-btn" onclick="closeSignupModal()" aria-label="Close"><i
+                        class="fas fa-times"></i></button>
             </div>
             <div class="auth-modal-body">
                 <div id="signupError" class="auth-error" style="display:none"></div>
                 <form id="signupForm" class="auth-form" novalidate>
                     <div class="auth-form-group">
-                        <label for="signup-name"><i class="fas fa-user"></i> Full Name <span class="required">*</span></label>
-                        <input type="text" id="signup-name" name="name" placeholder="e.g. John Smith" required autocomplete="name">
+                        <label for="signup-name"><i class="fas fa-user"></i> Full Name <span
+                                class="required">*</span></label>
+                        <input type="text" id="signup-name" name="name" placeholder="e.g. John Smith" required
+                            autocomplete="name">
                     </div>
                     <div class="auth-form-group">
-                        <label for="signup-email"><i class="fas fa-envelope"></i> Email Address <span class="required">*</span></label>
-                        <input type="email" id="signup-email" name="email" placeholder="you@company.com" required autocomplete="email">
+                        <label for="signup-email"><i class="fas fa-envelope"></i> Email Address <span
+                                class="required">*</span></label>
+                        <input type="email" id="signup-email" name="email" placeholder="you@company.com" required
+                            autocomplete="email">
                     </div>
                     <div class="auth-form-group">
                         <label for="signup-company"><i class="fas fa-building"></i> Company Name</label>
-                        <input type="text" id="signup-company" name="company" placeholder="Your Company Ltd." autocomplete="organization">
+                        <input type="text" id="signup-company" name="company" placeholder="Your Company Ltd."
+                            autocomplete="organization">
                     </div>
                     <div class="auth-form-group">
-                        <label for="signup-password"><i class="fas fa-lock"></i> Password <span class="required">*</span></label>
+                        <label for="signup-password"><i class="fas fa-lock"></i> Password <span
+                                class="required">*</span></label>
                         <div class="password-wrapper">
-                            <input type="password" id="signup-password" name="password" placeholder="At least 6 characters" required autocomplete="new-password">
-                            <button type="button" class="toggle-password" onclick="togglePassword('signup-password', this)" tabindex="-1">
+                            <input type="password" id="signup-password" name="password"
+                                placeholder="At least 6 characters" required autocomplete="new-password">
+                            <button type="button" class="toggle-password"
+                                onclick="togglePassword('signup-password', this)" tabindex="-1">
                                 <i class="fas fa-eye"></i>
                             </button>
                         </div>
@@ -548,20 +589,24 @@
                 <div class="auth-modal-logo login-logo"><i class="fas fa-sign-in-alt"></i></div>
                 <h2 id="loginModalTitle">Welcome Back</h2>
                 <p>Login to your Digital Agency account</p>
-                <button class="auth-close-btn" onclick="closeLoginModal()" aria-label="Close"><i class="fas fa-times"></i></button>
+                <button class="auth-close-btn" onclick="closeLoginModal()" aria-label="Close"><i
+                        class="fas fa-times"></i></button>
             </div>
             <div class="auth-modal-body">
                 <div id="loginError" class="auth-error" style="display:none"></div>
                 <form id="loginForm" class="auth-form" novalidate>
                     <div class="auth-form-group">
                         <label for="login-email"><i class="fas fa-envelope"></i> Email Address</label>
-                        <input type="email" id="login-email" name="email" placeholder="you@company.com" required autocomplete="email">
+                        <input type="email" id="login-email" name="email" placeholder="you@company.com" required
+                            autocomplete="email">
                     </div>
                     <div class="auth-form-group">
                         <label for="login-password"><i class="fas fa-lock"></i> Password</label>
                         <div class="password-wrapper">
-                            <input type="password" id="login-password" name="password" placeholder="Your password" required autocomplete="current-password">
-                            <button type="button" class="toggle-password" onclick="togglePassword('login-password', this)" tabindex="-1">
+                            <input type="password" id="login-password" name="password" placeholder="Your password"
+                                required autocomplete="current-password">
+                            <button type="button" class="toggle-password"
+                                onclick="togglePassword('login-password', this)" tabindex="-1">
                                 <i class="fas fa-eye"></i>
                             </button>
                         </div>
@@ -579,7 +624,8 @@
     </div>
 
     <!-- ===== MEMBER DASHBOARD ===== -->
-    <div id="memberDashboard" class="dashboard-overlay" style="display:none" role="dialog" aria-modal="true" aria-labelledby="dashboardTitle">
+    <div id="memberDashboard" class="dashboard-overlay" style="display:none" role="dialog" aria-modal="true"
+        aria-labelledby="dashboardTitle">
         <div class="dashboard-container">
             <header class="dashboard-header">
                 <div class="dashboard-logo">
@@ -603,7 +649,8 @@
                 <div class="dashboard-welcome">
                     <div class="welcome-text">
                         <h2>Welcome, <span id="dashboardWelcomeName">Member</span>! 🎉</h2>
-                        <p>Your Revenue Framework subscription is <span class="status-active">Active</span>. Here's your member dashboard.</p>
+                        <p>Your Revenue Framework subscription is <span class="status-active">Active</span>. Here's your
+                            member dashboard.</p>
                     </div>
                     <div class="welcome-badge">
                         <i class="fas fa-crown"></i>
@@ -725,7 +772,8 @@
                             </div>
                             <div class="dash-info-row">
                                 <span class="dash-info-label"><i class="fas fa-star"></i> Plan</span>
-                                <span class="dash-info-value dash-plan-badge" id="dashAccountPlan">Revenue Framework</span>
+                                <span class="dash-info-value dash-plan-badge" id="dashAccountPlan">Revenue
+                                    Framework</span>
                             </div>
                             <div class="dash-info-row">
                                 <span class="dash-info-label"><i class="fas fa-calendar"></i> Member Since</span>
@@ -778,4 +826,5 @@
 
     <script src="script.js"></script>
 </body>
+
 </html>
